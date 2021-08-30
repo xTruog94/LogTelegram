@@ -1,8 +1,10 @@
-<h1> LogTelegram </h1>
-LogTelegram is a Python package that contains quick send message to your Telegram Chat Box.
+# LogTelegram 
+LogTelegram is a Python package that contains fast sending message to your Telegram Chat Box.
 
-<h1>Installation and updating</h1>
+# Installation and updating
 Use the package manager <i>pip</i> to install <i>LogTelegram</i> like below. Rerun this command to check for and install updates .
+
 ```terminal
-pip install git+https://github.com/xTruog94/LogTelegram
+    pip install git+https://github.com/xTruog94/LogTelegram
+
 ```
