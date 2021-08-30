@@ -1,1 +1,1 @@
-from .LogTele import *
+from .LogTele import send_message
