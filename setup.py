@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 setuptools.setup(
     name='LogTelegram',
-    version='0.0.1',
+    version='0.0.2',
     author='xTruoq',
     author_email='truongnx@websosanh.com',
     description='Quickly Logs to Telegram',
