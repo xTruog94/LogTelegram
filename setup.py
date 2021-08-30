@@ -3,6 +3,9 @@ import setuptools
 with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
+with open("requirements.txt",encoding="utf-8") as lines:
+    reqs = [line for line in lines]
+
 setuptools.setup(
     name='LogTelegram',
     version='0.0.2',
@@ -17,5 +20,5 @@ setuptools.setup(
     },
     license='MIT',
     packages=['LogTelegram'],
-    install_requires=['requests'],
+    install_requires=reqs,
 )
