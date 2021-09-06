@@ -1,5 +1,5 @@
 import telegram
-from utils import clean
+from .utils import clean
 def send_message(message,bot_id="1294069256:AAF6D4XTApkankDYTlDfhOvqT32iKnkrLfo",chat_id="-592682183"):
     telegram_notify = telegram.Bot(str(bot_id))
     try:
