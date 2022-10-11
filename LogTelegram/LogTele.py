@@ -1,6 +1,6 @@
 import telegram
 from .utils import clean
-def send_message(message,bot_id="1294069256:AAF6D4XTApkankDYTlDfhOvqT32iKnkrLfo",chat_id="-592682183"):
+def send_message(message,bot_id="5774401441:AAEXF28JUJBvM-257dBg2pWMK9WBItWIVeE",chat_id="-879722743"):
     telegram_notify = telegram.Bot(str(bot_id))
     try:
         telegram_notify.send_message(chat_id=chat_id, text=message,
